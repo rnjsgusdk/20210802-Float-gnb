@@ -1,0 +1,60 @@
+/* Reset 시작 */
+* {
+  color: #333;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+a:link {
+  color: #444;
+}
+a:visited {
+  color: #444;
+}
+a:hover {
+  color: #555;
+}
+a:active {
+  color: #555;
+}
+
+img {
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+.flex-container {
+  display: flex;
+}
+/* Reset 끝 */
+
+/* 가이드 라인 시작 */
+
+div#wrap {
+  border: 1px solid #000;
+}
+
+header#header {
+  border: 1px solid #000;
+}
+
+main#main {
+  border: 1px solid #000;
+}
+
+div#contents {
+  border: 1px solid #000;
+}
+
+footer#footer {
+  border: 1px solid #000;
+}
+
+/* 가이드 라인 끝 */

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+div#warp {
+  width: 1200px;
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 10px auto;
+}
+
+div#haderlogo {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid #08f;
+  float: left;
+}
+
+nav#gnb {
+  width: 960px;
+  height: 100px;
+  border: 1px solid #08f;
+  padding-right: 320px;
+  padding-top: 50px;
+  float: right;
+}
+
+/* header#header::after
+{content: '''' ;
+    height: 100px;
+    border: 1px solid #f00;
+    display: inline-block;
+} */
+
+#gnb ul#mainmenu {
+  width: 620px;
+  /*border: 4px solid #000;*/
+}
+
+#gnb ul#mainmenu > li.mainli {
+  float: left;
+}
+
+#gnb a {
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+
+  display: inline-block;
+}
+
+#gnb .mainli > a {
+  border: 1px solid #aaa;
+}
+
+#gnb.submenu {
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+
+#gnb .subli > a {
+  border: 1px solid rgb(0, 136, 255, 0);
+}
+#gnb.mainli :hover > a {
+  color: #fff;
+  background-color: rgba(0, 136, 255, 0.8);
+}
+
+#gnb.subli a {
+  color: #fff;
+  background-color: rgba(0, 136, 255, 0);
+}
+
+#gnb.subli a:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+div#submenubgframe {
+  clear: both;
+  position: relative;
+}
+
+div#submenubg {
+  width: 1178px;
+  height: 160px;
+  border: 1px solid rgba(0, 136, 255, 0.6);
+  background-color: rgba(0, 136, 255, 0.6);
+
+  position: absolute;
+}
